@@ -1,0 +1,29 @@
+{
+  "name": "sms-gateway-server",
+  "version": "1.0.0",
+  "description": "DIY SMS Gateway Server for HighLevel Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "sms",
+    "gateway",
+    "highlevel",
+    "android",
+    "crm"
+  ],
+  "author": "CreativLogic",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
